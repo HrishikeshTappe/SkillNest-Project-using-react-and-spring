@@ -1,0 +1,102 @@
+.custom-navbar {
+    background-color: #1a1a2e;
+    padding: 12px 40px;
+}
+
+
+.brand-logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white !important;
+    font-size: 1.4rem;
+}
+
+
+.nav-logo {
+    height: 42px;
+    width: auto;
+    object-fit: contain;
+}
+
+
+.nav-item {
+    color: white !important;
+    margin-right: 18px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.nav-item:hover {
+    color: purple !important;
+}
+
+
+.navbar .btn {
+    padding: 6px 18px;
+    font-weight: 500;
+}
+
+
+@media (max-width: 992px) {
+    .custom-navbar {
+        padding: 12px 25px;
+    }
+
+    .nav-logo {
+        height: 38px;
+    }
+
+    .nav-item {
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .custom-navbar {
+        padding: 10px 20px;
+    }
+
+
+    .brand-logo span {
+        font-size: 1.2rem;
+    }
+
+    .nav-logo {
+        height: 34px;
+    }
+
+   
+    .navbar-collapse {
+        background-color: #1a1a2e;
+        padding: 10px 0;
+        border-radius: 8px;
+    }
+
+    .nav-item {
+        margin: 10px 0 !important;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .custom-navbar {
+        padding: 8px 15px;
+    }
+
+    .brand-logo span {
+        font-size: 1rem;
+    }
+
+    .nav-logo {
+        height: 30px;
+    }
+}

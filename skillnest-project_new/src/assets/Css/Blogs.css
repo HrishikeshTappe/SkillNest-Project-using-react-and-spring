@@ -1,0 +1,23 @@
+.blog-card {
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+.blog-name {
+  font-weight: 600;
+}
+
+.blog-btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.blog-title .highlight {
+  color: #17a2b8;
+}

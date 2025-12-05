@@ -1,0 +1,130 @@
+/* =========================================================
+   HERO SECTION
+========================================================= */
+.home-pagebanner {
+  background: linear-gradient(rgba(26, 26, 46, 0.85), rgba(99, 0, 179, 0.7)),
+    url("https://i.pinimg.com/1200x/c0/f0/16/c0f0167a545b3e55eded2d51622b17fa.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.home-subtitle {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.highlight-text {
+  color: #ff00ff;
+  font-size: 5rem;
+}
+
+.home-btn {
+  padding: 12px 28px;
+  font-size: 1rem;
+  color: black;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 80vh;
+  }
+}
+/* =========================================================
+   COURSES SECTION
+========================================================= */
+
+.section-heading {
+  font-weight: 700;
+  position: relative;
+}
+
+.section-heading::after {
+  content: "";
+  width: 90px;
+  height: 4px;
+  background: purple;
+  margin: 10px auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.course-card {
+  transition: 0.3s;
+  color: white;
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+}
+
+.course-icon {
+  font-size: 2rem;
+  color: purple;
+}
+
+.btn-white {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 1px solid #ddd !important;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-white:hover {
+  background-color: #f3f3f3 !important;
+}
+
+/* =========================================================
+   TESTIMONIALS SECTION
+========================================================= */
+
+.testimonial-section {
+  background: #f7f7fa;
+}
+
+.testimonial-card {
+  transition: 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-6px);
+}
+
+.testimonial-text {
+  color: #6a6a6a;
+}
+
+.testimonial-rating {
+  font-size: 1.1rem;
+}
+
+/* =========================================================
+   CTA SECTION
+========================================================= */
+
+.cta-section {
+  background: linear-gradient(to right, purple, #5d0092);
+}
+
+.video-section {
+  text-align: center;
+}
+
+.video-wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  background: #000;
+}
